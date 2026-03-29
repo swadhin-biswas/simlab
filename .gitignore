@@ -1,0 +1,33 @@
+# CMake and Build Artifacts
+build/
+bin/
+lib/
+out/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Compiled Objects
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.exe
+simlab_tui
+
+# Dependencies (If fetched locally later)
+imgui/
+dependencies/
+_deps/
